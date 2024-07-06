@@ -206,7 +206,7 @@
         msg_id: "joi",
         uname: "Xinrea",
         guard_level: Math.floor(Math.random() * 3) + 1,
-        guard_num: Math.floor(Math.random() * 2),
+        guard_num: Math.floor(Math.random() * 5) + 1,
         guard_unit: "月",
       }
     },{
