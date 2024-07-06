@@ -462,6 +462,9 @@ main {
           >
         </div>
         <div class="mb-6">
+          <div class="mb-2 font-light text-sm">
+            准确字体名称可使用 <A href="https://tools.vjoi.cn/font/" target="_blank">字体预览工具</A> 获取
+          </div>
           <Label for="font_family" class="mb-2">字体</Label>
           <Input id="font_family" bind:value={style_config.font_family} on:change={cssChange} size="sm" />
         </div>
@@ -528,6 +531,9 @@ main {
             >
             <Button color="primary" on:click={copyCss} size="sm">复制 CSS</Button>
           </ButtonGroup>
+          <div class="mt-6 font-light text-sm">
+            默认图片和音频素材来自 <A href="https://space.bilibili.com/61639371" target="_blank">@轴伊Joi_Channel</A>
+          </div>
         </div></Card
       >
     {/if}
